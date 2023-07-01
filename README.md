@@ -1,4 +1,4 @@
-# Grupo 8 - Ecommerce
+# Grupo 8 - Saint Motorcycles
 Simple overview of use/purpose.
 
 ## Descripcion
