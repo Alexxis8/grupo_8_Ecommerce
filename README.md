@@ -14,30 +14,13 @@ Además, ofrecemos un completo servicio postventa, que incluye mantenimiento, re
 No importa si eres un novato en el mundo de las motos o un piloto experimentado, estamos aquí para ayudarte a vivir la emoción y la libertad que solo una moto puede proporcionar. Visítanos hoy mismo y descubre la amplia gama de opciones que tenemos para ti. ¡Te esperamos con las mejores motos y un servicio excepcional!
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
 ## Autores
 
-Contributors names and contact info
+Info y contacto del equipo
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Alexis Ibañez:
+Diego Pistan:
+Martin Gomez:
 
 ## Historial de Versiones
 
