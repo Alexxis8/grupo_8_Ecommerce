@@ -18,7 +18,7 @@ No importa si eres un novato en el mundo de las motos o un piloto experimentado,
 
 Info y contacto del equipo
 
-ex. [@Alexis Ibañez] (https://twitter.com/dompizzie)
+ex. [Alexis Ibañez] (https://twitter.com/dompizzie)
 Diego Pistan:
 Martin Gomez:
 
