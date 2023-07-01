@@ -1,2 +1,1 @@
-#Project Title
-grupo_8_Ecommerce
+# grupo_8_Ecommerce
