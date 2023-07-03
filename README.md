@@ -1,5 +1,4 @@
 # Grupo 8 - Saint Motorcycles
-Simple overview of use/purpose.
 
 ## Descripcion
 
@@ -16,26 +15,26 @@ No importa si eres un novato en el mundo de las motos o un piloto experimentado,
 
 ## Autores
 
-Info y contacto del equipo
+Info y contacto del equipo:
 
-Alexis Ibañez
-Diego Pistan:
-Martin Gomez:
+* [Alexis Ibañez]()
+* [Diego Pistan]()
+* [Martin Gomez](tincho282@hotmail.com)
 
 ## Historial de Versiones
 
 * 0.1
-    * Initial Release
+    * Lanzamiento Inicial
 
 ## Licencia
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Este proyecto esta licenciado por [Saint Motorcycles] - lea el archivo LICENSE.md para mas detalles.
 
 ## Referencias
 
-Inspiration, code snippets, etc.
+Inspiraciones:
 * [Uno Motos](https://www.unomotos.com.ar/)
 * [Motor Roma](http://www.motoroma.com.ar/)
 * [Pueyredon Motos](https://pueyrredonmotos.com/)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Urquiza Motos](https://urquizamotos.com.ar/)
+* [Ciclo Fox Motos](https://www.ciclofoxmotos.com.ar/)
