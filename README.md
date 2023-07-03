@@ -18,7 +18,7 @@ Info y contacto del equipo:
 
 * [Alexis Ibañez]()
 * [Diego Pistan]()
-* [Martin Gomez](tincho282@hotmail.com)
+* [Martin Gomez](mailto:tincho282@hotmail.com)
 
 ## Historial de Versiones
 
