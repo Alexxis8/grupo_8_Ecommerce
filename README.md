@@ -11,7 +11,6 @@ Ya sea que estés buscando una moto para tus desplazamientos diarios en la ciuda
 Además, ofrecemos un completo servicio postventa, que incluye mantenimiento, reparaciones y la disponibilidad de repuestos originales. Queremos asegurarnos de que tu experiencia con tu moto sea excepcional en todos los aspectos.
 
 No importa si eres un novato en el mundo de las motos o un piloto experimentado, estamos aquí para ayudarte a vivir la emoción y la libertad que solo una moto puede proporcionar. Visítanos hoy mismo y descubre la amplia gama de opciones que tenemos para ti. ¡Te esperamos con las mejores motos y un servicio excepcional!
-## Getting Started
 
 ## Autores
 
