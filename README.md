@@ -16,7 +16,7 @@ No importa si eres un novato en el mundo de las motos o un piloto experimentado,
 
 Info y contacto del equipo:
 
-* [Alexis Ibañez]()
+* [Alexis Ibañez](yo.alexis08@gmail.com)
 * [Diego Pistan]()
 * [Martin Gomez](mailto:tincho282@hotmail.com)
 
