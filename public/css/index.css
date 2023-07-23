@@ -1,9 +1,6 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+header{
+    background-color: #B42629;
 }
-
 .logo{
     width: 50%;
 }
