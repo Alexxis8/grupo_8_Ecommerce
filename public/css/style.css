@@ -18,6 +18,16 @@ root{
 header{
     background-color: #B42629;
 }
+
 .logo{
     width: 50%;
+}
+
+.buscador{
+    background-color: #fff;
+    border: 2px solid #555;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
 }
