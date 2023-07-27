@@ -2,5 +2,23 @@
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^3.0.1"
-  }
+  },
+  "name": "grupo_8_ecommerce",
+  "description": "¡Descubre la emoción de la velocidad y la libertad con nuestras increíbles motocicletas! Nuestra tienda ofrece una amplia variedad de motos diseñadas para satisfacer todas tus necesidades y deseos de conducción.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexxis8/grupo_8_Ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexxis8/grupo_8_Ecommerce/issues"
+  },
+  "homepage": "https://github.com/Alexxis8/grupo_8_Ecommerce#readme"
 }
