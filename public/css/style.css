@@ -27,6 +27,7 @@ header{
 
 .fa-bars{
     display: flex;
+    align-items: center;
     transition: all 0.3s;
     box-sizing: border-box;
     height: 100%;
@@ -48,10 +49,9 @@ input[type=checkbox] {
     position: fixed;
     left: 0;
     width: 250px;
-    margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #7a7a7a 0%, #B42629 100%);
+    background-color: #B42629;
 }
 
 .sidebarMenuInner {
