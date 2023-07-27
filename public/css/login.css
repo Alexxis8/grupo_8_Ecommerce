@@ -1,6 +1,7 @@
 root{
     --gris-claro: #DBDBDB;
     --rojo: #B42629;
+    --color-letras: #000;
 }
 
 *{
@@ -18,9 +19,20 @@ root{
     
 }
 
+a{
+    text-decoration: none;
+    color: var(--color-letras);
+}
+
+p{
+    font-size: 12px;
+    color: var(--color-letras);
+    bottom: 0;
+}
+
 header{
-    background-color: #B42629;
-    height: 80px;
+    background-color: var(--rojo);
+    height: 100px;
     display: flex;
     width: 100%;
     position: fixed;
@@ -29,4 +41,85 @@ header{
     z-index: 1000;
     justify-content: space-between;
     line-height: 80px;
+}
+
+header div.logo, header .form{
+    width: 50%;
+    padding: 10px;
+}
+
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+
+header .form .input{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.barra1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 350px;
+}
+
+.barra2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 350px;
+}
+
+footer  .info{
+    padding: 35px 45px 20px;
+    text-align: center; 
+}
+
+footer section .info h2{
+    color: #4b4b4b;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 16px 0 0;
+    
+}
+
+footer  .info{
+
+    width: 300px;
+    height: 300px;
+
+}
+
+footer .Piedepagina{
+
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+}
+
+.footer-icon{
+    color: #1259c3;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
