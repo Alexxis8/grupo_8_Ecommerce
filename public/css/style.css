@@ -85,7 +85,7 @@ input[type=checkbox] {
 }
 
 .logo{
-    width: 50%;
+    width: 100%;
 }
 .caja-buscador{
     display: flex;
