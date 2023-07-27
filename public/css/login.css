@@ -1,0 +1,32 @@
+root{
+    --gris-claro: #DBDBDB;
+    --rojo: #B42629;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+header{
+    background-color: #B42629;
+    height: 80px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    line-height: 80px;
+}
