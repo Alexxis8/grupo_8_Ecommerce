@@ -87,6 +87,7 @@ input[type=checkbox] {
 .logo{
     width: 100%;
 }
+
 .caja-buscador{
     display: flex;
     align-items: center;
@@ -106,8 +107,12 @@ body{
 .caja-marcas{
     display: flex;
     list-style: none;
+    width: 100vw;
+    height: 88px;
+    background-color: #818181;
 }
 
 .marcas{
     width: 100%;
+    height: 100%;
 }
