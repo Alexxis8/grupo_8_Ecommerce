@@ -103,6 +103,11 @@ body{
     font-family: 'Cairo', sans-serif;
 }
 
-.img-banner{
+.caja-marcas{
+    display: flex;
+    list-style: none;
+}
+
+.marcas{
     width: 100%;
 }
