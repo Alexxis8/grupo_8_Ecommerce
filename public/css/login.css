@@ -4,20 +4,14 @@ root{
     --color-letras: #000;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 #contenedor {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     margin: 0;
     padding: 0;
-    min-width: 100vw;
+    background: url("https://million-wallpapers.ru/wallpapers/5/48/558803362532481/tres-motos-por-la-ma-ana-en-la-carretera.jpg") fixed;
+    min-width: 95vw;
     min-height: 100vh;
     width: 100%;
     height: 100%;
@@ -36,6 +30,7 @@ root{
 }
 
 #login {
+    
     width: 100%;
     padding: 50px 30px;
     background-color: #DBDBDB;
