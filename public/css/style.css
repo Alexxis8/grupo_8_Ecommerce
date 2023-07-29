@@ -128,7 +128,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     text-align: center;
 }
 
@@ -215,4 +214,9 @@ footer{
   
   .footer-menu ul li a:hover{
     color: #27bcda;
+  }
+
+  .logo-footer{
+    width: 50%;
+    background-color: #fff;
   }
