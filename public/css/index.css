@@ -1,5 +1,32 @@
-
-
-.img-banner{
+.contenido-banner{
+    display: flex;
+    align-items: center;
     width: 100%;
+    height: 300px;
+    background: url(/images/fondos/2018_yam_yzf1000r1spl_eu_bwm2_sta_003-55617.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+
+.caja-banner{
+    margin-left: 50%;
+}
+
+#titulo-banner{
+    margin-bottom: 10px; 
+    color: #fff;
+}
+
+#texto-banner{
+        color: #fff;
+}
+
+#btn-banner{
+    display: inline-block;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 5px 10px;
+            color: #fff;
+            background-color: grey;
 }
