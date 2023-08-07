@@ -38,6 +38,10 @@ input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
 }
 
+input[type="checkbox"]:checked ~ .sidebarIconToggle {
+    position: fixed;
+}
+
 input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
@@ -66,6 +70,7 @@ input[type=checkbox] {
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
     background-color: #B42629;
+    z-index: 1;
 }
 
 .sidebarMenuInner {
