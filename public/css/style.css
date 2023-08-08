@@ -23,6 +23,15 @@ header{
 .header-superior{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-header{
+    background-color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10%;
 }
 
 .fa-bars{
@@ -43,8 +52,6 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle {
 }
 
 input[type=checkbox] {
-    transition: all 0.3s;
-    box-sizing: border-box;
     display: none;
 }
 
@@ -89,13 +96,21 @@ input[type=checkbox] {
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 }
 
-.logo{
+.caja-logo{
     width: 50%;
+}
+
+.logo{
+    width: 100%;
     padding: 10px;
 }
 
 .logo-burger{
     width: 100%;
+}
+
+.botonera{
+    display: none;
 }
 
 .buscador{
@@ -234,3 +249,13 @@ footer{
     width: 50%;
     background-color: #fff;
   }
+
+
+  @media (min-width: 768px) {
+    .botonera{
+        display: block;
+    }
+    .sidebarIconToggle{
+        display: none;
+    }
+}

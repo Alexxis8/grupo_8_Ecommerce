@@ -31,7 +31,6 @@
             background-color: grey;
 }
 #seccion-motos{
-    
     display: flex;
     flex-wrap: wrap;
 }
