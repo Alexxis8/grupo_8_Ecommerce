@@ -22,3 +22,8 @@
 
 ### Comentarios del equipo
 
+En base a las devoluciones obtenidas por los profes pudimos identificar que quizas tuvimos algunas diferencias en los wireframes mobile/desktop y que en la prisa nos olvidamos de colocar Header y footer en las pantallas de login y registro.
+
+En esta etapa nos organizamos mejor a la hora de dividir las tareas y nos ayudamos entre nosotros durante el desarrollo de la web.
+
+Ademas, tomamos todos los consejos brindados por los profesores para poder ir mejorando nuestra web y darle un uso mas practico para el usuario final.
