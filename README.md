@@ -25,6 +25,10 @@ Info y contacto del equipo:
 * 0.1
     * Lanzamiento Inicial
 
+## Tablero
+
+* [Trello - Grupo 8](https://trello.com/b/7C1mFCNF/full-stack-grupo-8)
+
 ## Licencia
 
 Este proyecto esta licenciado por [Saint Motorcycles] - lea el archivo LICENSE.md para mas detalles.
