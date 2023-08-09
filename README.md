@@ -18,8 +18,8 @@ Info y contacto del equipo:
 
 * [Alexis Ibañez]()
 * [Diego Pistan]()
-* [Martin Gomez:](https://www.linkedin.com/in/mhgomez/)
-Hola! Soy Martin, vivo en San Miguel, Buenos Aires, ARG. Trabajo actualmente en Yamaha Motor Argentina en el area de IT. Preferentemente en mi trabajo me enfoco al area de Microinformatica. Ademas soy Data Analyst y tengo conocimientos basicos en Python y Java. Espero que este curso me brinde herramientas nuevas para adentrarme mas en el mundo del desarrollo web.
+* [Martin Gomez :](https://www.linkedin.com/in/mhgomez/)
+ Hola! Soy Martin, vivo en San Miguel, Buenos Aires, ARG. Trabajo actualmente en Yamaha Motor Argentina en el area de IT. Preferentemente en mi trabajo me enfoco al area de Microinformatica. Ademas soy Data Analyst y tengo conocimientos basicos en Python y Java. Espero que este curso me brinde herramientas nuevas para adentrarme mas en el mundo del desarrollo web.
 
 ## Historial de Versiones
 
