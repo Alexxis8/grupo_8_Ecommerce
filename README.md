@@ -19,12 +19,15 @@ Info y contacto del equipo:
 * [Alexis Ibañez :]()
 
 * [Alan Montenegro :]()
+Tengo 23 años y actualmente trabajo para una empresa de soluciones de marketing,
+me gusta el diseño de indumentaria, andar en skate, ver anime y pasar tiempo en familia.
 
 * [Martin Gomez :](https://www.linkedin.com/in/mhgomez/)
  Hola! Soy Martin, vivo en San Miguel, Buenos Aires, ARG. Trabajo actualmente en Yamaha Motor Argentina en el area de IT. Preferentemente en mi trabajo me enfoco al area de Microinformatica. Ademas soy Data Analyst y tengo conocimientos basicos en SQL, Python y Java. Espero que este curso me brinde herramientas nuevas para adentrarme mas en el mundo del desarrollo web.
 
 * [Tomas Lagos :]()
-
+Soy Estudiante de desarrollo web y actualmente trabajo para una empresa de publicidad.
+Me gusta el anime y diversos videojuegos, aunque nunca viene mal un partidito de fútbol para relajar el estrés
 
 * [Santiago Alderete :]()
 
