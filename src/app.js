@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+/*app.set("view engine", "ejs");
+app.set("views", __dirname + "/src");*/
 app.use(express.static('public'));
 app.listen(process.env.PORT || 3000, function() {console.log("Servidor corriendo");})
 
