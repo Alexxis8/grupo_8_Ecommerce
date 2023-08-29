@@ -1,11 +1,16 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const mainRouter = require('./routes/mainRouter')
 
-/*app.set("view engine", "ejs");
-app.set("views", __dirname + "/src");*/
+
 app.use(express.static('public'));
 app.listen(process.env.PORT || 3000, function() {console.log("Servidor corriendo");})
+
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'ejs')
+
+app.use(mainRouter)
 
 app.get('/', (req,res)=> {
         res.sendFile(path.join(__dirname,'/views/index.html'))
