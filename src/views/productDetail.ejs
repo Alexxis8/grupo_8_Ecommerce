@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head.ejs') %>
+    <body>
+      <%- include('partials/header.ejs') %>
+        <main>
+            <section>
+                <div class="contenedor-producto">
+                    <div class="img-caja"><img id="img-detalle" src="images/motos/Yamaha-MT09/2021_MTN890_MDNM6_EUR_2021_YAM_MT09_EU_MDNM6_STU_002_03.jpeg" alt=""></div>
+                    <div class="caja-detalle">
+                            <h2 id="titulo-detalle">Yamaha-MT09</h2>
+                            <h4 id="subtitulo-detalle">Lorem ipsum dolor</h4>
+                            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus sodales maximus lorem et aliquet. Curabitur congue mi at congue tristique. Phasellus luctus leo
+                            </p>
+                            <p class="colores-producto">Colores disponibles
+                                <span class="color-detalle" id="negro"></span>
+                                <span class="color-detalle" id="azul"></span>
+                                <span class="color-detalle" id="rojo"></span>
+                            </p>
+                            <h5 class="precio-detalle">$55.000</h5>
+                            <div class="caja-btn-detalle"> 
+                                <button class="btn agregar">AGREGAR</button>
+                                <button class="btn comprar" type="submit">COMPRAR</button>
+                                </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <%- include('partials/footer.ejs') %>
+    </body>
+</html>

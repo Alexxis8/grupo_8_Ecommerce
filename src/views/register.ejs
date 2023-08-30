@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head.ejs') %>
+
+<body>
+  <%- include('partials/header.ejs') %>
+  <main>
+    <section>
+  <!-- FORMULARIO DE LOGIN -->
+  <div id="contenedor">
+    <div id="central">
+      <div id="login">
+        <div class="titulo">
+          Registrese
+        </div>
+        <form id="loginform">
+          <input type="text" name="usuario" placeholder="Nombre Completo" required>
+          <input type="text" name="usuario" placeholder="E-mail" required>
+          <input type="password" placeholder="Contraseña" name="Contraseña" required>
+          <input type="password" placeholder="Repita su Contraseña" name="Contraseña" required>
+          <button type="submit" title="Ingresar" name="Ingresar">Crear Usuario</button>
+        </form>
+        <div class="pie-form">
+          <a href="/login">Volver</a>
+        </div>
+      </div>
+      <div class="inferior">
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<%- include('partials/footer.ejs') %>
+</body>
+
+</html>

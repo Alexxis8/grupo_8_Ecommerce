@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head.ejs') %>
+
+<body>
+  <%- include('partials/header.ejs') %>
+  <main>
+  <div id="contenedor-carrito">
+      <div class="container">
+        <div class="heading">
+          <h1>
+            <span class="shopper">Mi compra</span> 
+          </h1>  
+        </div>
+        <div class="cart transition is-open">
+          <a href="#" class="btn-carrito btn-carrito-update">PAGAR</a>
+          <div class="table">
+            <div class="layout-inline row th">
+              <div class="col col-pro">Producto</div>
+              <div class="col col-price align-center "> 
+                Precio
+              </div>
+              
+              <div class="col">IVA</div>
+              <div class="col">Total</div>
+            </div>
+            
+            <div class="layout-inline row">
+              
+              <div class="col col-pro layout-inline">
+                <img class="img-carrito" src="/images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="kitten" />
+                <p>YAMAHA FZ-X 150cc.</p>
+              </div>
+              
+              <div class="col col-price col-numeric align-center ">
+                <p>USD 5000</p>
+              </div>
+
+              <div class="col col-vat col-numeric">
+                <p>11%</p>
+              </div>
+              <div class="col col-total col-numeric">               
+                <p> USD 5.000</p>
+              </div>
+            </div>
+            
+             <div class="tf">
+               <div class="row layout-inline">
+                 <div class="col">
+                   <p>IVA</p>
+                 </div>
+                 <div class="col"></div>
+               </div>
+               <div class="row layout-inline">
+                 <div class="col">
+                   <p>Gastos Adm.</p>
+                 </div>
+                 <div class="col"></div>
+               </div>
+                <div class="row layout-inline">
+                 <div class="col">
+                   <p>Total</p>
+                 </div>
+                 <div class="col"></div>
+               </div>
+             </div>         
+        </div>
+          
+          <a href="#" class="btn-carrito btn-carrito-update">PAGAR</a>
+        
+      </div>
+    </div>
+  </div>
+  </main>
+  <%- include('partials/footer.ejs') %>
+</body>
+
+</html>

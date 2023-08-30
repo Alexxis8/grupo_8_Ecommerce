@@ -1,48 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/logo/Logo-Saint-motorcycles-2.png" />
-    <title>Saint Motorcycles</title>
-    <!--CSS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
+<%- include('partials/head.ejs') %>
 <body>
-    <header>
-        <div class="header-superior">
-            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-  <label for="openSidebarMenu" class="sidebarIconToggle">
-    <i class="fas fa-bars"></i>
-  </label>
-  <div id="sidebarMenu">
-    <ul class="sidebarMenuInner">
-      <li><img class="logo-burger" src="images/logo/Logo-Saint-motorcycles-2.png" alt=""></li>
-      <li><a href="/" target="_blank"><i class="fas fa-home"></i>Inicio</a></li>
-      <li><a href="/login" target="_blank"><i class="fas fa-sign-in-alt"></i>Log In</a></li>
-      <li><a href="/" target="_blank"><i class="fas fa-users"></i>Nosotros</a></li>
-      <li><a href="/" target="_blank"><i class="fas fa-phone"></i>Contacto</a></li>
-    </ul>
-  </div>
-  <div class="caja-logo">
-  <a href="/"><img class="logo" src="images/logo/Logo-Saint-motorcycles-2.png" alt=""></a>
-</div>
-<nav class="botonera">
-  <a href="/" target="_blank"><button class="btn-header">INICIO</button></a>
-  <a href="/login" target="_blank"><button class="btn-header">LOGIN</button></a>
-  <a href="" target="_blank"><button class="btn-header">NOSOTROS</button></a>
-  <a href="" target="_blank"><button class="btn-header">CONTACTO</button></a>
-</nav>
-<div class="buscador">
-  <div class="icono-buscador"><i class="fas fa-search"></i></div>
-  <input class="input" type="text" placeholder="Buscar productos, marcas">
-</div>
-        </div>
-    </header>
+<%- include('partials/header.ejs') %>
     <main>
       <section>
         <div class="contenido-banner">
@@ -268,47 +228,6 @@
         </div>
       </section>
     </main>
-    <footer>
-      <section>
-        
-      </section>
-      <section>
-        <div>
-          <ul class="caja-marcas">
-            <li><a href=""><img class="marcas" src="images/logo_marcas/bajaj.png" alt=""></a></li>
-            <li><a href=""><img class="marcas" src="images/logo_marcas/kawasaki negro.png" alt=""></a></li>
-            <li><a href=""><img class="marcas" src="images/logo_marcas/ktm.png" alt=""></a></li>
-            <li><a href=""><img class="marcas" src="images/logo_marcas/logo honda.png" alt=""></a></li>
-            <li><a href=""><img class="marcas" id="suzuki" src="images/logo_marcas/suzuki.png" alt=""></a></li>
-            <li><a href=""><img class="marcas" src="images/logo_marcas/yamaha.png" alt=""></a></li>
-          </ul>
-        </div>
-        <div class="footer-content">
-          <div>
-          <a href="/"><img class="logo-footer" src="images/logo/Logo-Saint-motorcycles-2.png" alt=""></a>
-          <h3>Saint Motorcycles</h3>
-        </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius ante metus, vitae tristique urna luctus nec.</p>
-          <ul class="socials">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-            <li><a href="#"><i class="fas fa-map-marker-alt"></i></a></li>
-            <li><a href="#"><i class="fas fa-envelope"></i></i></a></li>
-         </ul>
-      </div>
-      <div class="footer-menu">
-        <ul class="f-menu">
-           <li><a href="">Home</a></li>
-           <li><a href="">About</a></li>
-           <li><a href="">Contact</a></li>
-           <li><a href="">Blog</a></li>
-        </ul>
-       </div>
-      <div class="footer-bottom">
-        <p>copyright &copy;2023 <a href=”#”>Saint Motorcycles</a>  </p>
-     </div>
-      </section>
-    </footer>
+    <%- include('partials/footer.ejs') %>
 </body>
 </html>
