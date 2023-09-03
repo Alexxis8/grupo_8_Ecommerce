@@ -17,6 +17,7 @@ No importa si eres un novato en el mundo de las motos o un piloto experimentado,
 Info y contacto del equipo:
 
 * [Alexis Ibañez :]()
+Buenas!! Soy Alexis tengo 21 años me gustan los videojuegos, el anime y el futbol, y decidi hacer este curso para adentrarme en el mundo de la programacion que me gusta bastante y entender como se manejan las paginas web por detras.
 
 * [Alan Montenegro :]()
 Tengo 23 años y actualmente trabajo para una empresa de soluciones de marketing,
