@@ -13,6 +13,9 @@ const controller = {
     },
     register:(req, res)=>{
         res.render('register')
+    },
+    productRegister:(req, res)=>{
+        res.render('productRegister')
     }
 }
 

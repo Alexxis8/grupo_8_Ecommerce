@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head.ejs') %>
+
+<body>
+  <%- include('partials/header.ejs') %>
+  <main>
+    <section>
+  <!-- FORMULARIO DE CARGA DE PRODUCTO -->
+  <div id="contenedor">
+    <div id="central">
+      <div id="login">
+        <div class="titulo">
+          Registre su producto
+        </div>
+        <form id="loginform">
+          <input type="text" name="name" placeholder="Nombre del producto" required>
+          <input type="text" name="description" placeholder="Descripcion" >
+          <input type="text" placeholder="Categoria" name="Categoria" required>
+          <input type="text" placeholder="Colores" name="colores">
+          <input type="text" placeholder="Precio" name="cost" required>
+          <input type="file" name="image" class="form__file" required>
+          <button type="submit" title="Ingresar" name="Ingresar">Crear Publicacion</button>
+        </form>
+        <div class="pie-form">
+          <a href="/login">Volver</a>
+        </div>
+      </div>
+      <div class="inferior">
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<%- include('partials/footer.ejs') %>
+</body>
+
+</html>
