@@ -54,3 +54,7 @@ Inspiraciones:
 * [Pueyredon Motos](https://pueyrredonmotos.com/)
 * [Urquiza Motos](https://urquizamotos.com.ar/)
 * [Ciclo Fox Motos](https://www.ciclofoxmotos.com.ar/)
+
+## Modificaciones y Retrospectiva del Grupo
+* Durante el segundo sprint, tomamos la decisión de unir nuestro grupo al Grupo 6 para compartir ideas y aportar la base de lo que veníamos desarrollando en nuestro proyecto. Esta integración conllevó a la incorporación de nuevos miembros al equipo, lo que hace que no podamos proporcionar una retrospectiva completa. Sin embargo, nos sentimos cómodos ante estos cambios y los consideramos un desafío emocionante, ya que debemos adaptar nuevas potenciales ideas al proyecto existente.
+
