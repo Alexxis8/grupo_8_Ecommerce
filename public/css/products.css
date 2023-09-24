@@ -1,0 +1,31 @@
+.main-products{
+    display: flex;
+}
+.seccion-izq{
+    width: 20%;
+    height: 250px;
+}
+.contenido-izq{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#products-motos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.caja-izq{
+    border: 1px solid;
+    margin-bottom: 5px;
+    box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.span-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

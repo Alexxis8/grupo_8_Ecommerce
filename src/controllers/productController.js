@@ -1,4 +1,4 @@
-const productsList = [
+/*const productsList = [
     {
         id:1,
         name: 'Yamaha-FZX',
@@ -6,7 +6,7 @@ const productsList = [
         category: 'Moto',
         color: 'Azul',
         cost: '20.000',
-        img: '2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg'
+        image: '2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg'
     },
     {
         id:2,
@@ -15,7 +15,7 @@ const productsList = [
         category: 'Moto',
         color: 'Blanco',
         cost: '25.000',
-        img: '2022_MTN320_PGD_EUR_360_001_03.jpeg'
+        image: '2022_MTN320_PGD_EUR_360_001_03.jpeg'
     },
     {
         id:3,
@@ -24,7 +24,7 @@ const productsList = [
         category: '',
         color: '',
         cost: '',
-        img: ''
+        image: ''
     },
     {
         id:4,
@@ -33,7 +33,7 @@ const productsList = [
         category: '',
         color: '',
         cost: '',
-        img: ''
+        image: ''
     },
     {
         id:5,
@@ -42,7 +42,7 @@ const productsList = [
         category: '',
         color: '',
         cost: '',
-        img: ''
+        image: ''
     },
     {
         id:6,
@@ -51,7 +51,7 @@ const productsList = [
         category: '',
         color: '',
         cost: '',
-        img: ''
+        image: ''
     },
     {
         id:7,
@@ -60,7 +60,7 @@ const productsList = [
         category: '',
         color: '',
         cost: '',
-        img: ''
+        image: ''
     },
     {
         id:8,
@@ -69,33 +69,6 @@ const productsList = [
         category: '',
         color: '',
         cost: '',
-        img: ''
+        image: ''
     },
-]
-
-const controller = {
-    index:(req, res)=>{
-        res.render('index')
-    },
-    login:(req, res)=>{
-        res.render('login')
-    },
-    carrito:(req, res)=>{
-        res.render('productCart')
-    },
-    products:(req, res)=>{
-        res.render('products', {list: productsList})
-    },
-    detalle:(req, res)=>{
-        let productFound = productsList.find((product)=> product.id == req.params.id)
-        res.render('productDetail', {product: productFound})
-    },
-    register:(req, res)=>{
-        res.render('register')
-    },
-    productRegister:(req, res)=>{
-        res.render('productRegister')
-    }
-}
-
-module.exports = controller
+]*/

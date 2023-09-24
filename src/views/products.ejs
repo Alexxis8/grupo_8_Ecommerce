@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head.ejs') %>
+<body>
+    <%- include('partials/header.ejs') %>
+    <main class="main-products">
+        <section class="seccion-izq">
+            <div class="contenido-izq">
+                <div class="caja-izq">
+                    <span class="span-products"><p>Categorias</p><i class="fas fa-sort-down"></i></span>
+                </div>
+                <div class="caja-izq">
+                    <span class="span-products"><p>Filtros</p><i class="fas fa-sort-down"></i></span>
+                </div>
+            </div>
+        </section>
+        <section id="products-motos">
+            <% list.forEach((product)=>{%>
+              <div class="caja-card">
+                <div class="wrapper">
+                  <div class="imagen-card">
+                    <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
+                  </div>
+                <div class="contenido-texto">
+                  <h4 class="titulo-card"><%= product.name %></h4>
+                  <p class="precio"><%= product.cost %></p>
+                </div>
+                <ul class="detalle-producto">
+                  <li class="li">
+                    <p>Peso</p>
+                  </li>
+                  <li class="li">
+                    <p>Año</p>
+                  </li>
+                  <li class="li">
+                    <p>Velocidad</p>
+                  </li>
+                </ul>
+                <div class="button-wrapper"> 
+                  <button class="btn detalle">DETALLE</button>
+                    <button class="btn comprar" type="submit">COMPRAR</button>
+                  </div>
+                </div>
+              </div>
+            <%}) %>
+
+          </section>
+    </main>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>
