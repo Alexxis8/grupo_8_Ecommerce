@@ -1,7 +1,8 @@
 const productsList = [
     {
         id:1,
-        name: 'Yamaha-FZX',
+        name: 'Yamaha',
+        subtitle: 'FZX',
         description: 'Quisque nec accumsan eros. Nulla mattis gravida ex a iaculis. Quisque non odio diam. Ut nec urna ut ex rutrum lacinia quis sit amet urna. Lorem ipsum dolor sit amet',
         category: 'Moto',
         color: 'Azul',
@@ -10,7 +11,8 @@ const productsList = [
     },
     {
         id:2,
-        name: 'Yamaha-MT03',
+        name: 'Yamaha',
+        subtitle: 'MT03',
         description: 'Quisque nec accumsan eros. Nulla mattis gravida ex a iaculis. Quisque non odio diam. Ut nec urna ut ex rutrum lacinia quis sit amet urna. Lorem ipsum dolor sit amet',
         category: 'Moto',
         color: 'Blanco',
