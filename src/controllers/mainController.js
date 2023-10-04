@@ -17,7 +17,7 @@ const productsList = [
         category: 'Moto',
         color: 'Blanco',
         cost: '25.000',
-        img: '2022_MTN320_PGD_EUR_360_001_03.jpeg'
+        img: '2022_MTN320_PGD_EUR_360_021_03.jpeg'
     },
     {
         id:3,
