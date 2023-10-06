@@ -27,3 +27,6 @@ En base a las devoluciones obtenidas por los profes pudimos identificar que quiz
 En esta etapa nos organizamos mejor a la hora de dividir las tareas y nos ayudamos entre nosotros durante el desarrollo de la web.
 
 Ademas, tomamos todos los consejos brindados por los profesores para poder ir mejorando nuestra web y darle un uso mas practico para el usuario final.
+
+## Modificaciones y Retrospectiva del Grupo
+Durante el segundo sprint, tomamos la decisión de unir nuestro grupo al Grupo 6 para compartir ideas y aportar la base de lo que veníamos desarrollando en nuestro proyecto. Esta integración conllevó a la incorporación de nuevos miembros al equipo, lo que hace que no podamos proporcionar una retrospectiva completa. Sin embargo, nos sentimos cómodos ante estos cambios y los consideramos un desafío emocionante, ya que debemos adaptar nuevas potenciales ideas al proyecto existente.
