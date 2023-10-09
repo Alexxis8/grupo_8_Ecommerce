@@ -9,16 +9,18 @@
 }
 
 .caja-banner{
-    margin-left: 50%;
+    margin-left: 70%;
 }
 
 #titulo-banner{
+    display: flex;
     margin-bottom: 10px; 
-    color: #fff;
+    color: #000;
 }
 
 #texto-banner{
-        color: #fff;
+    display: flex;
+    color: #000;
 }
 
 #btn-banner{
