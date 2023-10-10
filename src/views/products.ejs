@@ -16,32 +16,25 @@
         </section>
         <section id="products-motos">
             <% list.forEach((product)=>{%>
-              <div class="caja-card">
-                <div class="wrapper">
-                  <div class="imagen-card">
-                    <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
-                  </div>
-                <div class="contenido-texto">
-                  <h4 class="titulo-card"><%= product.name %></h4>
-                  <p class="precio"><%= product.cost %></p>
+              <div class="contenedor-producto">
+                <div class="img-caja"><img id="img-detalle" src="/images/motos/modelos/<%= product.img %>" alt=""></div>
+                <div class="caja-detalle">
+                        <h2 id="titulo-detalle"><%= product.name %></h2>
+                        <h4 id="subtitulo-detalle"><%= product.subtitle %></h4>
+                        <p><%= product.description %>
+                        </p>
+                        <p class="colores-producto">Colores disponibles
+                            <span class="color-detalle" id="negro"></span>
+                            <span class="color-detalle" id="azul"></span>
+                            <span class="color-detalle" id="rojo"></span>
+                        </p>
+                        <h5 class="precio-detalle"><%= product.cost %></h5>
+                        <div class="caja-btn-detalle"> 
+                            <button class="btn agregar">AGREGAR</button>
+                            <button class="btn comprar" type="submit">COMPRAR</button>
+                            </div>
                 </div>
-                <ul class="detalle-producto">
-                  <li class="li">
-                    <p>Peso</p>
-                  </li>
-                  <li class="li">
-                    <p>Año</p>
-                  </li>
-                  <li class="li">
-                    <p>Velocidad</p>
-                  </li>
-                </ul>
-                <div class="button-wrapper"> 
-                  <button class="btn detalle">DETALLE</button>
-                    <button class="btn comprar" type="submit">COMPRAR</button>
-                  </div>
-                </div>
-              </div>
+            </div>
             <%}) %>
 
           </section>
