@@ -2,7 +2,10 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "mysql2": "^3.6.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1"
   },
   "name": "grupo_8_ecommerce",
   "description": "¡Descubre la emoción de la velocidad y la libertad con nuestras increíbles motocicletas! Nuestra tienda ofrece una amplia variedad de motos diseñadas para satisfacer todas tus necesidades y deseos de conducción.",
