@@ -1,4 +1,5 @@
-const productsList = [
+const db = require('../database/models');
+/*const productsList = [
     {
         id:1,
         name: 'Yamaha',
@@ -73,7 +74,7 @@ const productsList = [
         cost: '',
         img: ''
     },
-]
+]*/
 
 const controller = {
     index:(req, res)=>{
@@ -85,19 +86,9 @@ const controller = {
     carrito:(req, res)=>{
         res.render('productCart')
     },
-    products:(req, res)=>{
-        res.render('products', {list: productsList})
-    },
-    detalle:(req, res)=>{
-        let productFound = productsList.find((product)=> product.id == req.params.id)
-        res.render('productDetail', {product: productFound})
-    },
     register:(req, res)=>{
         res.render('register')
     },
-    productRegister:(req, res)=>{
-        res.render('productRegister')
-    }
 }
 
 module.exports = controller
