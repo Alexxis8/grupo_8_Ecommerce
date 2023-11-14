@@ -13,6 +13,11 @@ router.get('/register', controller.register)
 
 
 router.get('/productRegister', productsController.productRegister)
-router.post('/productCreate', productsController.create)
+router.post('/create', productsController.create)
+router.get('/edit/:id', productsController.edit)
+router.post('/update/:id', productsController.update)
+router.get('/delete/:id', productsController.delete)
+router.post('/delete/:id', productsController.destroy)
+router.get('/restore/:id', productsController.restore)
 
 module.exports = router

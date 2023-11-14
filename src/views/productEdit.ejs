@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head.ejs') %>
+
+<body>
+  <%- include('partials/header.ejs') %>
+  <main>
+    <section>
+  <!-- FORMULARIO DE EDICION DE PRODUCTO -->
+  <div id="contenedor">
+    <div id="central">
+      <div id="login">
+        <div class="titulo" <%= Product.modelo %>>
+          Edite su producto
+        </div>
+        <form id="loginform" action="/update/<%= Product.id %>" method="POST">
+          <input type="text" name="name" placeholder="Nombre del producto" value="<%= Product.modelo %>" required>
+          <input type="text" name="description" placeholder="Descripcion"  value="<%= Product.descripcion %>" required>
+          <input type="text" name="cc" placeholder="Cilindrada"  value="<%= Product.cilindrada %>" required>
+          <input type="text" placeholder="Marca" name="brand"  value="<%= Product.marca %>" required>
+          <input type="text" placeholder="Colores" name="colors"  value="<%= Product.color %>" required>
+          <input type="text" placeholder="Precio" name="cost"  value="<%= Product.precio %>" required>
+          <input type="file" name="image" class="form__file"  value="<%= Product.imagen %>" required>
+          <button type="submit" title="Ingresar" name="ingresar">Actualizar Publicacion</button>
+        </form>
+        <div class="pie-form">
+          <a href="/login">Volver</a>
+        </div>
+      </div>
+      <div class="inferior">
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<%- include('partials/footer.ejs') %>
+</body>
+
+</html>

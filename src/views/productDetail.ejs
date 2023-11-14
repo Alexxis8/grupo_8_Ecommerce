@@ -6,7 +6,7 @@
         <main>
             <section>
                 <div class="contenedor-producto">
-                    <div class="img-caja"><img id="img-detalle" src="/images/motos/modelos/<%= product.img %>" alt=""></div>
+                    <div class="img-caja"><img id="img-detalle" src="<%= product.imagen %>" alt=""></div>
                     <div class="caja-detalle">
                             <h2 id="titulo-detalle"><%= product.marca %></h2>
                             <h4 id="subtitulo-detalle"><%= product.modelo %></h4>
@@ -22,6 +22,15 @@
                             <div class="caja-btn-detalle"> 
                                 <button class="btn agregar">AGREGAR</button>
                                 <button class="btn comprar" type="submit">COMPRAR</button>
+                                </div>
+                                <div>
+                                    <a href="/edit/<%= product.id %>">Editar</a>
+                                </div>
+                                <div>
+                                    <a href="/delete/<%= product.id %>">Eliminar</a>
+                                </div>
+                                <div>
+                                    <a href="/restore/<%= product.id %>">Restaurar</a>
                                 </div>
                     </div>
                 </div>
