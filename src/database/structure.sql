@@ -1,35 +1,15 @@
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `categorias`
---
-
-DROP TABLE IF EXISTS `categorias`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `categorias` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `nombre` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
+
 
 --
 -- Table structure for table `facturas`
 --
 
-DROP TABLE IF EXISTS `facturas`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `facturas` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `Numero` decimal(8,2) NOT NULL,
@@ -38,31 +18,26 @@ CREATE TABLE `facturas` (
   `id_usuario` bigint(20) NOT NULL,
   `id_tipo` bigint(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
+
 
 --
 -- Table structure for table `marcas`
 --
 
-DROP TABLE IF EXISTS `marcas`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `marcas` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `nombre` varchar(255) NOT NULL,
   `Origen` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
 
 --
 -- Table structure for table `productos`
 --
 
-DROP TABLE IF EXISTS `productos`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `productos` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `Cilindrada` decimal(8,2) NOT NULL,
@@ -80,60 +55,55 @@ CREATE TABLE `productos` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
+
+
+INSERT INTO `productos` VALUES (1,150.00,'FZX','0',140000.00,'2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg',0,'fzx','azul','Yamaha',0,0,NULL,NULL,'2023-11-29 21:12:29'),(2,300.00,'MT03','0',120000.00,'2022_MTN320_PGD_EUR_360_021_03.jpeg',0,'2022','negro','Yamaha',0,0,NULL,NULL,'2023-11-29 21:13:14'),(3,900.00,'MT09','0',170000.00,'img',0,'','0','Yamaha',0,0,NULL,NULL,NULL),(4,125.00,'NMAX','0',110000.00,'img',0,'','0','Yamaha',0,0,NULL,NULL,NULL),(5,130.00,'MT09','',140000.00,'2020_RAYZR_SMX_IND_03.png',0,'wweee','azul','Yamaha',0,0,NULL,NULL,NULL),(6,0.00,'','',0.00,'img',0,'','','',0,0,'2023-11-14 17:12:03',NULL,NULL),(7,0.00,'','',0.00,'img',0,'','','',0,0,NULL,NULL,NULL),(8,0.00,'','',0.00,'img',0,'','','',0,0,NULL,NULL,NULL),(9,677.00,'RAY-ZR x','',999999.99,'2020_RAYZR_SMX_IND_01.png',0,'Quisque nec accumsan eros','','Yamaha',0,0,NULL,NULL,NULL),(10,222.00,'www','',999999.99,'2020_RAYZR_SMX_IND_03.png',0,'eweq','negro','Yamaha',0,0,NULL,NULL,NULL),(11,290.00,'RAY-ZR SMX','',180000.00,'2020_RAYZR_SMX_IND.jpg',0,'2020','negro','Yamaha',0,0,NULL,'2023-11-29 20:46:16','2023-11-29 21:06:41');
+/*!40000 ALTER TABLE `productos` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `productos_facturas`
 --
 
-DROP TABLE IF EXISTS `productos_facturas`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `productos_facturas` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `id_productos` bigint(20) NOT NULL,
   `id_facturas` bigint(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
 
 --
 -- Table structure for table `roles`
 --
 
-DROP TABLE IF EXISTS `roles`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `roles` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `Cliente` bigint(20) NOT NULL,
   `Administrador` bigint(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
+
 
 --
 -- Table structure for table `tipos`
 --
 
-DROP TABLE IF EXISTS `tipos`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `tipos` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `Nombre` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+);
+
 
 --
 -- Table structure for table `usuarios`
 --
 
-DROP TABLE IF EXISTS `usuarios`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
+
 CREATE TABLE `usuarios` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `Nombre` varchar(255) NOT NULL,
@@ -147,14 +117,4 @@ CREATE TABLE `usuarios` (
   `Direccion` varchar(255) NOT NULL,
   `id_roles` bigint(20) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+) 

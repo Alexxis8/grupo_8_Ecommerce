@@ -1,10 +1,12 @@
+require("dotenv").config()
 module.exports={
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "saint_motorcycle_db",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": process.env.DB_USER,
+    "password": process.env.DB_PASSWORD,
+    "database": "saintmotorcycle_db",
+    "host": process.env.DB_HOST,
+    "dialect": "mysql",
+    "port": process.env.DB_PORT
   },
   "test": {
     "username": "root",

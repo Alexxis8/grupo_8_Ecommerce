@@ -1,8 +1,23 @@
 const express = require('express')
+const multer = require('multer')
+const path = require('path')
 const controller = require('../controllers/mainController')
 const productsController = require('../controllers/productsController')
 const userController = require('../controllers/userController')
 const router = express.Router()
+
+
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, path.join(__dirname, '../../public/images/motos/modelos'))
+    },
+    filename: (req, file, cb) => {
+        console.log(file)
+        const newFileName = 'models-' + Date.now() + path.extname(file.originalname)
+        cb(null, newFileName)
+    }
+})
+
 
 
 router.get('/', controller.index)
