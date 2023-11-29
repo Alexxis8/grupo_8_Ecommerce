@@ -14,14 +14,14 @@
         <div class="titulo">
           Registrese
         </div>
-        <form id="loginform" action="/validar" method="post">
-          <input type="text" name="usuario" placeholder="Nombre" id="nombre" required>
-          <input type="text" name="usuario" placeholder="Apellido" id="apellido"required>
-          <input type="text" name="DNI" placeholder="DNI" id="dni" required>
-          <input type="text" name="E-mail" placeholder="E-mail" id="email" required>
-          <input type="text" name="E-mail" placeholder="Repita su E-mail" required>
-          <input type="password" placeholder="Contraseña" name="Contraseña" id="contrasenia" required>
-          <input type="password" placeholder="Repita su Contraseña" name="Contraseña" required>
+        <form id="loginform" action="/userCreate" method="post">
+          <input type="text" name="name" placeholder="Nombre" id="nombre" required>
+          <input type="text" name="surname" placeholder="Apellido" id="apellido"required>
+          <input type="text" name="dni" placeholder="DNI" id="dni" required>
+          <input type="text" name="email" placeholder="E-mail" id="email" required>
+          <input type="text" name="email" placeholder="Repita su E-mail" required>
+          <input type="password" placeholder="Contraseña" name="clave" id="contrasenia" required>
+          <input type="password" placeholder="Repita su Contraseña" name="clave" required>
 
           <button type="submit" value="registrar" title="Crear Usuario" name="Crear">Crear Usuario</button>
         </form>

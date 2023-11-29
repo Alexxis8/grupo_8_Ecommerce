@@ -12,6 +12,15 @@ module.exports = (sequelize, dataTypes)=>{
         apellido:{
             type: dataTypes.STRING(255)
         },
+        email:{
+            type: dataTypes.STRING(255)
+        },
+        clave:{
+            type: dataTypes.STRING(255)
+        },
+        dni:{
+            type: dataTypes.DECIMAL(8,2)
+        }
     }
     let config = {
         tableName: 'usuarios',

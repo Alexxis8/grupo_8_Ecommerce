@@ -26,15 +26,6 @@ app.get('/register', (req,res)=> {
         res.sendFile(path.join(__dirname,'/views/register.html'))
 } )
 
-app.post("/validar", function(req,res){
-        const datos = req.body;
-        
-        let nombre = datos.nombre;
-        let apellido = datos.apellido;
-        let dni = datos.dni;
-        let email = datos.email;
-        let contrasenia = datos.contrasenia;
-})
 
 app.get('/products', (req,res)=> {
         res.sendFile(path.join(__dirname,'/views/products.html'))

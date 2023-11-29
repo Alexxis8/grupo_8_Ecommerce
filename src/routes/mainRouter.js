@@ -1,6 +1,7 @@
 const express = require('express')
 const controller = require('../controllers/mainController')
 const productsController = require('../controllers/productsController')
+const userController = require('../controllers/userController')
 const router = express.Router()
 
 
@@ -9,9 +10,13 @@ router.get('/login', controller.login)
 router.get('/productCart', controller.carrito)
 router.get('/products', productsController.products)
 router.get('/productDetail/:id', productsController.productDetail)
-router.get('/register', controller.register)
 
 
+//PARA USUARIOS
+router.get('/register', userController.register)
+router.post('/userCreate', userController.create)
+
+//PARA PRODUCTOS//
 router.get('/productRegister', productsController.productRegister)
 router.post('/create', productsController.create)
 router.get('/edit/:id', productsController.edit)
