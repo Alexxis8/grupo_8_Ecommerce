@@ -20,7 +20,7 @@ const storage = multer.diskStorage({
 
 
 
-router.get('/', controller.index)
+router.get('/', productsController.index)
 router.get('/login', controller.login)
 router.get('/productCart', controller.carrito)
 router.get('/products', productsController.products)

@@ -9,6 +9,12 @@ const productsController = {
             res.render('products.ejs', {products})
         })
     },
+    index: async (req, res)=>{
+        db.Product.findAll(/* para un panel de administracion {paranoid: false}*/)
+        .then(productos =>{
+            res.render('index.ejs', {productos})
+        })
+    },
     'productDetail': async (req, res)=>{
         db.Product.findByPk(req.params.id/* para panel de admin ,{paranoid: false}*/)
         .then(product =>{

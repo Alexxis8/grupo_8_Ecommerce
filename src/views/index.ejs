@@ -15,217 +15,39 @@
       </section>
       <h3 class="titulares">Destacados</h3>
       <section id="seccion-motos">
+        <% productos.forEach((product)=>{%>
         <div class="caja-card">
           <div class="wrapper">
             <div class="imagen-card">
-              <img class="motos" src="images/motos/modelos/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
+              <img id="img-detalle" src="/images/motos/modelos/<%= product.imagen %>" alt="">
             </div>
           <div class="contenido-texto">
-            <h4 class="titulo-card">Yamaha-FZX</h4>
-            <p class="precio">$20.000</p>
+            <h4 class="titulo-card"><%= product.marca %></h4>
+            <p class="precio"><%= product.precio %></p>
           </div>
           <ul class="detalle-producto">
             <li class="li">
-              <p>Peso</p>
+              <p><%= product.modelo %></p>
             </li>
             <li class="li">
-              <p>Año</p>
+              <p><%= product.descripcion %></p>
             </li>
             <li class="li">
-              <p>Velocidad</p>
+              <p><%= product.cilindrada %>cc</p>
             </li>
           </ul>
-          <div class="button-wrapper"> 
-            <button class="btn detalle">DETALLE</button>
-              <button class="btn comprar" type="submit">COMPRAR</button>
+          <div class="caja-btn-detalle"> 
+            <a href="/productDetail/<%= product.id %>"><button class="btn agregar">DETALLE</button></a>
+            <button class="btn comprar" type="submit">COMPRAR</button>
             </div>
           </div>
         </div>
-        <div class="caja-card">
-          <div class="wrapper">
-            <div class="imagen-card">
-              <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
-            </div>
-          <div class="contenido-texto">
-            <h4 class="titulo-card">Yamaha-FZX</h4>
-            <p class="precio">$20.000</p>
-          </div>
-          <ul class="detalle-producto">
-            <li class="li">
-              <p>Peso</p>
-            </li>
-            <li class="li">
-              <p>Año</p>
-            </li>
-            <li class="li">
-              <p>Velocidad</p>
-            </li>
-          </ul>
-          <div class="button-wrapper"> 
-            <button class="btn detalle">DETALLE</button>
-              <button class="btn comprar" type="submit">COMPRAR</button>
-            </div>
-          </div>
-        </div>
-        <div class="caja-card">
-          <div class="wrapper">
-            <div class="imagen-card">
-              <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
-            </div>
-          <div class="contenido-texto">
-            <h4 class="titulo-card">Yamaha-FZX</h4>
-            <p class="precio">$20.000</p>
-          </div>
-          <ul class="detalle-producto">
-            <li class="li">
-              <p>Peso</p>
-            </li>
-            <li class="li">
-              <p>Año</p>
-            </li>
-            <li class="li">
-              <p>Velocidad</p>
-            </li>
-          </ul>
-          <div class="button-wrapper"> 
-            <button class="btn detalle">DETALLE</button>
-              <button class="btn comprar" type="submit">COMPRAR</button>
-            </div>
-          </div>
-        </div>
-        <div class="caja-card">
-          <div class="wrapper">
-            <div class="imagen-card">
-              <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
-            </div>
-          <div class="contenido-texto">
-            <h4 class="titulo-card">Yamaha-FZX</h4>
-            <p class="precio">$20.000</p>
-          </div>
-          <ul class="detalle-producto">
-            <li class="li">
-              <p>Peso</p>
-            </li>
-            <li class="li">
-              <p>Año</p>
-            </li>
-            <li class="li">
-              <p>Velocidad</p>
-            </li>
-          </ul>
-          <div class="button-wrapper"> 
-            <button class="btn detalle">DETALLE</button>
-              <button class="btn comprar" type="submit">COMPRAR</button>
-            </div>
-          </div>
-        </div>
+        <%}) %>
+        
       </section>
       <h3 class="titulares">Accesorios</h3>
       <section id="seccion-motos">
-        <div class="caja-card">
-          <div class="wrapper">
-            <div class="imagen-card">
-              <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
-            </div>
-          <div class="contenido-texto">
-            <h4 class="titulo-card">Yamaha-FZX</h4>
-            <p class="precio">$20.000</p>
-          </div>
-          <ul class="detalle-producto">
-            <li class="li">
-              <p>Peso</p>
-            </li>
-            <li class="li">
-              <p>Año</p>
-            </li>
-            <li class="li">
-              <p>Velocidad</p>
-            </li>
-          </ul>
-          <div class="button-wrapper"> 
-            <button class="btn detalle">DETALLE</button>
-              <button class="btn comprar" type="submit">COMPRAR</button>
-            </div>
-          </div>
-        </div>
-        <div class="caja-card">
-          <div class="wrapper">
-            <div class="imagen-card">
-              <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
-            </div>
-          <div class="contenido-texto">
-            <h4 class="titulo-card">Yamaha-FZX</h4>
-            <p class="precio">$20.000</p>
-          </div>
-          <ul class="detalle-producto">
-            <li class="li">
-              <p>Peso</p>
-            </li>
-            <li class="li">
-              <p>Año</p>
-            </li>
-            <li class="li">
-              <p>Velocidad</p>
-            </li>
-          </ul>
-          <div class="button-wrapper"> 
-            <button class="btn detalle">DETALLE</button>
-              <button class="btn comprar" type="submit">COMPRAR</button>
-            </div>
-          </div>
-        </div>
-        <div class="caja-card">
-          <div class="wrapper">
-            <div class="imagen-card">
-              <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
-            </div>
-          <div class="contenido-texto">
-            <h4 class="titulo-card">Yamaha-FZX</h4>
-            <p class="precio">$20.000</p>
-          </div>
-          <ul class="detalle-producto">
-            <li class="li">
-              <p>Peso</p>
-            </li>
-            <li class="li">
-              <p>Año</p>
-            </li>
-            <li class="li">
-              <p>Velocidad</p>
-            </li>
-          </ul>
-          <div class="button-wrapper"> 
-            <button class="btn detalle">DETALLE</button>
-              <button class="btn comprar" type="submit">COMPRAR</button>
-            </div>
-          </div>
-        </div>
-        <div class="caja-card">
-          <div class="wrapper">
-            <div class="imagen-card">
-              <img class="motos" src="images/motos/Yamaha-FZX/2023_YC150_MDPBM1_IND_01 YAMAHA FZX BLU 360 00003.jpg" alt="">
-            </div>
-          <div class="contenido-texto">
-            <h4 class="titulo-card">Yamaha-FZX</h4>
-            <p class="precio">$20.000</p>
-          </div>
-          <ul class="detalle-producto">
-            <li class="li">
-              <p>Peso</p>
-            </li>
-            <li class="li">
-              <p>Año</p>
-            </li>
-            <li class="li">
-              <p>Velocidad</p>
-            </li>
-          </ul>
-          <div class="button-wrapper"> 
-            <button class="btn detalle">DETALLE</button>
-              <button class="btn comprar" type="submit">COMPRAR</button>
-            </div>
-          </div>
-        </div>
+        
       </section>
     </main>
     <%- include('partials/footer.ejs') %>
