@@ -15,8 +15,8 @@
           Registre su producto
         </div>
         <form id="loginform" action="/create" method="POST" enctype="multipart/form-datanp">
-          <input type="text" name="name" placeholder="Nombre del producto" required>
-          <input type="text" name="description" placeholder="Descripcion" >
+          <input type="text" name="name" placeholder="Nombre del producto" required minlength="5">
+          <input type="text" name="description" placeholder="Descripcion" minlength="20" >
           <input type="text" name="cc" placeholder="Cilindrada" >
           <input type="text" placeholder="Marca" name="brand" required>
           <input type="text" placeholder="Colores" name="colors">

@@ -29,12 +29,37 @@
           class="btn-header">NOSOTROS</button></a>
       <a href="/productCart" target="_self"><button class="btn-header">CARRITO</button></a>
       <a href="/productRegister" target="_self"><button class="btn-header">VENDER</button></a>
-
     </nav>
   </div>
-  <!--<div class="buscador">
-      <input class="input" type="text" placeholder="Buscar productos, marcas">
-      <div class="icono-buscador"><i class="fas fa-search"></i></div>
-    </div>-->
+  <!--<div class="searchBox">
+    <div class="search">
+      <ion-icon name="search-outline"></ion-icon>
+    </div>
+    <div class="searchInput">
+      <input type="text" placeholder="Buscar productos">
+    </div>
+    <div class="close">
+      <ion-icon name="close-outline"></ion-icon>
+    </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+  <script>
+
+    const search=document.querySelector('.search');
+    const close=document.querySelector('.close');
+    const searchBox=document.querySelector('.searchBox');
+    search.onclick=function() {
+      searchBox.classList.add('active');
+    }
+    close.onclick=function() {
+      searchBox.classList.add('active');
+    }
+
+  </script>-->
+  <!--<div class="buscador">
+        <input class="input" type="text" placeholder="Buscar productos, marcas">
+        <div class="icono-buscador"><i class="fas fa-search"></i></div>
+      </div>-->
 </header>
