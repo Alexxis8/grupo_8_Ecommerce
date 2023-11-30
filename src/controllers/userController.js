@@ -15,9 +15,9 @@ const userController ={
         const userCreated = await db.User.create({
             nombre: req.body.name,
             apellido: req.body.surname,
-            dni: req.body.dni,
             email: req.body.email,
             clave: req.body.clave,
+            dni: req.body.dni,
         })
         console.log(userCreated);
         res.redirect('/user')
