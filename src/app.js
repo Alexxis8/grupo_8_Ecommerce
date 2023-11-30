@@ -25,6 +25,9 @@ app.get('/login', (req,res)=> {
 app.get('/register', (req,res)=> {
         res.sendFile(path.join(__dirname,'/views/register.html'))
 } )
+app.get('/user', (req,res)=> {
+        res.sendFile(path.join(__dirname,'/views/user.html'))
+} )
 
 
 app.get('/products', (req,res)=> {

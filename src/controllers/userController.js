@@ -2,7 +2,13 @@ const db = require('../database/models');
 
 
 const userController ={
-    register:(req, res)=>{
+    user:(req, res) =>{
+        db.User.findByPk(req.params.id/* para panel de admin ,{paranoid: false}*/)
+        .then(user =>{
+            res.render('user.ejs', {user})
+        })
+    },
+    register: async (req, res)=>{
         res.render('register')
     },
     create: async function(req,res){
@@ -14,6 +20,7 @@ const userController ={
             clave: req.body.clave,
         })
         console.log(userCreated);
+        res.redirect('/user')
     },
 
 }

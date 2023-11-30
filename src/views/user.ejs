@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head.ejs') %>
+<body>
+    <%- include('partials/header.ejs') %>
+    <main class="">
+        <section>
+                <div class="contenedor-producto">
+                  <div class="img-caja"><img id="img-detalle" src="" alt=""></div>
+                  <div class="caja-detalle">
+                          <h2 id="titulo-detalle"><%= user.nombre %></h2>
+                          <h2 id="subtitulo-detalle"><%= user.apellido %></h2>
+                          <h5 id="subtitulo-detalle"><%= user.dni %>cc</h5>
+                          <h5><%= user.email %></h5>
+                          <h5 class="precio-detalle"><%= user.clave %></h5>
+                  </div>
+              </div>
+        </section>
+    </main>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>

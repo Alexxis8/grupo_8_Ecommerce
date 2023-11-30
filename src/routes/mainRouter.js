@@ -29,6 +29,7 @@ router.get('/productDetail/:id', productsController.productDetail)
 
 //PARA USUARIOS
 router.get('/register', userController.register)
+router.get('/user', userController.user)
 router.post('/userCreate', userController.create)
 
 //PARA PRODUCTOS//
