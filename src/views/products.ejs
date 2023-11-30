@@ -24,14 +24,14 @@
                         <h5 id="subtitulo-detalle"><%= product.cilindrada %>cc</h5>
                         <p><%= product.descripcion %>
                         </p>
-                        <p class="colores-producto">Colores disponibles
+                        <!--<p class="colores-producto">Colores disponibles
                             <span class="color-detalle" id="negro"></span>
                             <span class="color-detalle" id="azul"></span>
-                            <span class="color-detalle" id="rojo"></span>
+                            <span class="color-detalle" id="rojo"></span>-->
                         </p>
                         <h5 class="precio-detalle"><%= product.precio %></h5>
                         <div class="caja-btn-detalle"> 
-                            <a href=""><button class="btn agregar">DETALLE</button></a>
+                            <a href="/productDetail/<%= product.id %>"><button class="btn agregar">DETALLE</button></a>
                             <button class="btn comprar" type="submit">COMPRAR</button>
                             </div>
                 </div>
