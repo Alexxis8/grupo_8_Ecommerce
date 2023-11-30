@@ -46,20 +46,24 @@
     display: inline-block;
 }
 
-#negro{
+#negro, #NEGRO, #Negro{
     background-color: black;
 }
 
-#azul{
+#azul, #AZUL, #Azul{
     background-color: blue;
 }
 
-#rojo{
+#rojo, #ROJO, #Rojo{
     background-color: red;
 }
 
+#gris, #GRIS, #Gris{
+    background-color: rgb(65, 65, 65);
+}
+
 .precio-detalle{
-    font-size: 38px;
+    font-size: 40px;
 }
 
 .caja-btn-detalle{
